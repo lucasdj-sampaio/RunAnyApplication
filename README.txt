@@ -5,7 +5,7 @@ In this repository, you can find two other files,
 One is the executable (.exe) and the other is the cod in extension (.waj),
 If you need to modify, you will need to obtain a license on the WIN AUTOMATION software.
 
---------------------- HOW TO USE THE EXECUTIBLE ---------------------
+--------------------- HOW TO USE THE EXECUTABLE ---------------------
 
 To use automation, you need to download the executable, save the file in any directory. 
 On your TRIGGER CMD, you need to create a new TRIGGER by passing the file path and enabling the parameter option. 
@@ -14,6 +14,8 @@ To call an application, just write the file path in front of this automation str
 Example: C: \ ... \ ... \ automation_run_application.exe "C: ... \ ... \ Teams.exe" "C: ... \ ... \ WinAutomation.Console.exe" "C : ... \ ... Ssms.exe "" C: ... \ ... \ automation_run_application.exe F "
 
 Remember, use the ("") for each parameter, because if there is any space in the string, TRIGGER CMD will be understood as a new parameter
+
+So, case you want to wait any time after execute a process, you can set (% + INT VALUE) concat in string! Ex: WinAutomation.Console.exe%10 - This value in secunds
 
 --------------------- ALEXA AUTOMATION ---------------------
 
