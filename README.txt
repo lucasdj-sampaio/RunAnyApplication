@@ -1,5 +1,3 @@
-Aqui está a sua documentação reformulada em **Markdown** com emojis, seções bem organizadas e uma leitura mais agradável para um README no GitHub:
-
 ````markdown
 # 🚀 Run Multiple Applications with a Single Command  
 
