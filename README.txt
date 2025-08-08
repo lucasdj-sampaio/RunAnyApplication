@@ -1,32 +1,79 @@
-HELLO EVERYONE :)
+Aqui está a sua documentação reformulada em **Markdown** com emojis, seções bem organizadas e uma leitura mais agradável para um README no GitHub:
 
-Here we will understand how to use the software created to run any application using just one call on TRIGGER CMD,
-In this repository, you can find two other files,
-One is the executable (.exe) and the other is the cod in extension (.waj),
-If you need to modify, you will need to obtain a license on the WIN AUTOMATION software.
+````markdown
+# 🚀 Run Multiple Applications with a Single Command  
 
---------------------- HOW TO USE THE EXECUTABLE ---------------------
+**HELLO EVERYONE!** 😄  
 
-To use automation, you need to download the executable, save the file in any directory. 
-On your TRIGGER CMD, you need to create a new TRIGGER by passing the file path and enabling the parameter option. 
-To call an application, just write the file path in front of this automation string path as if it were a parameter.
+This project provides a solution to run **multiple applications in sequence** using just **one command** via [TRIGGERcmd](https://www.triggercmd.com/).  
 
-Example: C: \ ... \ ... \ automation_run_application.exe "C: ... \ ... \ Teams.exe" "C: ... \ ... \ WinAutomation.Console.exe" "C : ... \ ... Ssms.exe "" C: ... \ ... \ automation_run_application.exe F "
+In this repository, you'll find:  
+- 📄 **Executable** (`.exe`)  
+- 📜 **Source code** (`.waj`) — requires a **WinAutomation license** to modify  
 
-Remember, use the ("") for each parameter, because if there is any space in the string, TRIGGER CMD will be understood as a new parameter
+---
 
-So, case you want to wait any time after execute a process, you can set (% + INT VALUE) concat in string! Ex: WinAutomation.Console.exe%10 - This value in secunds
+## ⚙️ How It Works  
 
---------------------- ALEXA AUTOMATION ---------------------
+Using the executable, you can run several applications **in sequence** by passing them as parameters in a single TRIGGER CMD call.  
 
-The most amazing thing you can do is to perform this automation using your alexa, but you need to use some plug-ins to do this,
+💡 **Example:**  
+```bash
+C:\...\automation_run_application.exe "C:\...\Teams.exe" "C:\...\WinAutomation.Console.exe" "C:\...\Ssms.exe"
+````
 
-First - Search for TRIGGER CMD in your browser and follow all the steps ...
+**Important:**
 
-If you have any questions, send me a message on my linkedin: https://www.linkedin.com/in/lucasdjsampaio/
+* Enclose each parameter in `"double quotes"` to avoid issues with file paths containing spaces.
+* To add a delay between applications, append `%<seconds>` after the file name.
 
---------------------- WHY TO USE ---------------------
+  * Example:
 
-If you’re using the TRIGGER CMD, you’ve probably realized that we can’t call more than one trigger per minute,
-So I create this application.
-My idea was to create a routine to open all the applications I use daily, but I had to wait a minute for the calls, but with this software, I can just make a call on the TRIGGER CMD and perform any automation
+    ```bash
+    WinAutomation.Console.exe%10
+    ```
+
+    This waits **10 seconds** before running the next application.
+
+---
+
+## 📦 How to Use
+
+1. ⬇️ **Download** the `.exe` file.
+2. 💾 Save it in any directory you prefer.
+3. ⚡ In TRIGGER CMD, create a new trigger pointing to the `.exe` file path.
+4. ✅ Enable the **parameter option** in TRIGGER CMD.
+5. ▶️ Pass the applications you want to run as parameters.
+
+---
+
+## 🗣️ Alexa Integration
+
+You can make this even cooler by controlling it with **Alexa**! 🤖💬
+
+Steps:
+
+1. Search for **TRIGGER CMD** in your browser.
+2. Follow the setup instructions.
+3. Connect it to Alexa using the available plug-ins.
+
+---
+
+## 💡 Why Use This?
+
+If you’ve used TRIGGER CMD before, you know it can only trigger **one command per minute**.
+I built this to bypass that limitation by allowing **multiple apps to open at once** with just **one trigger**.
+
+📌 My main goal was to open **all my daily applications** instantly, without waiting 60 seconds between each.
+
+---
+
+## 📬 Questions?
+
+Feel free to reach out via my LinkedIn:
+🔗 [Lucas Sampaio](https://www.linkedin.com/in/lucasdjsampaio/)
+
+```
+
+Se quiser, também posso criar **uma versão com GIFs ou imagens** para mostrar o fluxo de uso e deixar o README ainda mais chamativo. Isso ajuda bastante a prender a atenção de quem visitar o repositório.
+```
