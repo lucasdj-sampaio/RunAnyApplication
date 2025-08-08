@@ -1,4 +1,3 @@
-````markdown
 # 🚀 Run Multiple Applications with a Single Command  
 
 **HELLO EVERYONE!** 😄  
