@@ -20,21 +20,6 @@ Using the executable, you can run several applications **in sequence** by passin
 C:\...\automation_run_application.exe "C:\...\Teams.exe" "C:\...\WinAutomation.Console.exe" "C:\...\Ssms.exe"
 ````
 
-**Important:**
-
-* Enclose each parameter in `"double quotes"` to avoid issues with file paths containing spaces.
-* To add a delay between applications, append `%<seconds>` after the file name.
-
-  * Example:
-
-    ```bash
-    WinAutomation.Console.exe%10
-    ```
-
-    This waits **10 seconds** before running the next application.
-
----
-
 ## 📦 How to Use
 
 1. ⬇️ **Download** the `.exe` file.
@@ -70,8 +55,3 @@ I built this to bypass that limitation by allowing **multiple apps to open at on
 
 Feel free to reach out via my LinkedIn:
 🔗 [Lucas Sampaio](https://www.linkedin.com/in/lucasdjsampaio/)
-
-```
-
-Se quiser, também posso criar **uma versão com GIFs ou imagens** para mostrar o fluxo de uso e deixar o README ainda mais chamativo. Isso ajuda bastante a prender a atenção de quem visitar o repositório.
-```
